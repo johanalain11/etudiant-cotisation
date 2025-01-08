@@ -10,4 +10,4 @@ Un programme C qui permet d'entrer les informations d'un étudiant inscrit dans 
 # Installation
 1. CLonez le dépot:
   '''bash
-  git clone https://github.com/johanalain11/Projet-1.1/
+  https://github.com/johanalain11/Projet-1.1.git
