@@ -25,9 +25,9 @@ cd Projet-1.1
 gcc programme.c -o gestion_etudiants
 ```
 3. Exécuter l'application
-
->./gestion_etudiants
-
+```c
+./gestion_etudiants
+```
 
 ---
 ## Utilisation
@@ -47,7 +47,7 @@ gcc programme.c -o gestion_etudiants
 ## Exemple d'exécution
 ![Exemple d'exécution](./exec.png "Capture d'ajout d'étudiant")
 
---
+---
 ## Structure de données
 Chaque étudiant est représenté par une structure etudiant :
 ```c
@@ -70,9 +70,10 @@ struct etudiant
 
 ---
 ## Améliorations Futures
-* Ajouter une validation plus robuste des entrées utilisateur.
-* Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
-* Ajouter un système de sauvegarde et de chargement des données dans un fichier.
+>[INFO]
+>Ajouter une validation plus robuste des entrées utilisateur.
+>Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
+>Ajouter un système de sauvegarde et de chargement des données dans un fichier.
 
 ## Auteur
 **Johan Alain**
