@@ -79,5 +79,5 @@ struct etudiant
 
 ## Auteur
 **Johan Alain**
-&nbsp
+
 [GitHub](https://github.com/johanalain11/)
