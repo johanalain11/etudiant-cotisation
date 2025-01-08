@@ -70,7 +70,8 @@ struct etudiant
 
 ---
 ## Améliorations Futures
->[INFO]
+>[!INFO]
+>
 >Ajouter une validation plus robuste des entrées utilisateur.
 >Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
 >Ajouter un système de sauvegarde et de chargement des données dans un fichier.
