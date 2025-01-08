@@ -16,16 +16,16 @@ Ce projet est une application en langage C qui permet de gérer les informations
 
 1. Cloner le dépôt
 Clonez le projet depuis GitHub :
-```c
+```sh
 git clone https://github.com/johanalain11/Projet-1.1.git
 cd Projet-1.1
 ```
 2. Compiler le code
-```c
+```sh
 gcc programme.c -o gestion_etudiants
 ```
 3. Exécuter l'application
-```c
+```sh
 ./gestion_etudiants
 ```
 
