@@ -20,14 +20,14 @@ Clonez le projet depuis GitHub :
 git clone https://github.com/johanalain11/Projet-1.1.git
 cd Projet-1.1
 ```
-3. Compiler le code
+2. Compiler le code
 ```c
 gcc programme.c -o gestion_etudiants
 ```
-5. Exécuter l'application
-```c
-    ./gestion_etudiants
-```
+3. Exécuter l'application
+
+>./gestion_etudiants
+
 
 ---
 ## Utilisation
