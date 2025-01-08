@@ -1,7 +1,7 @@
 # Gestion des étudiants et cotisations
 Ce projet est une application en langage C qui permet de gérer les informations des étudiants et leurs cotisations au sein d'un club.
 
----
+
 ## Fonctionnalités
 
 - Ajouter des étudiants avec leurs informations personnelles et leurs cotisations.
@@ -16,14 +16,18 @@ Ce projet est une application en langage C qui permet de gérer les informations
 
 1. Cloner le dépôt
 Clonez le projet depuis GitHub :
-```
+```c
 git clone https://github.com/johanalain11/Projet-1.1.git
 cd Projet-1.1
 ```
 3. Compiler le code
-    gcc programme.c -o gestion_etudiants
-4. Exécuter l'application
+```c
+gcc programme.c -o gestion_etudiants
+```
+5. Exécuter l'application
+```c
     ./gestion_etudiants
+```
 
 ---
 ## Utilisation
@@ -31,22 +35,22 @@ cd Projet-1.1
 2. Entrez le nombre d'étudiants à inscrire.
 3. Suivez les instructions pour saisir les informations des étudiants.
 4. Choisissez une opération dans le menu :
-- Modifier les données d'un étudiant.
-- Supprimer les données d'un étudiant par son numéro.
-- Supprimer les données d'un étudiant par son matricule.
-- Afficher la liste des étudiants et leurs cotisations.
-- Calculer le montant total cotisé.
-- Rechercher un étudiant par son matricule.
-- Quitter le programme.
+    * Modifier les données d'un étudiant.
+    * Supprimer les données d'un étudiant par son numéro.
+    * Supprimer les données d'un étudiant par son matricule.
+    * Afficher la liste des étudiants et leurs cotisations.
+    * Calculer le montant total cotisé.
+    * Rechercher un étudiant par son matricule.
+    * Quitter le programme.
 
 ---
 ## Exemple d'exécution
-![Exemple d'exécution](exec.png "Capture d'ajout d'étudiant")
+![Exemple d'exécution](./exec.png "Capture d'ajout d'étudiant")
 
 --
 ## Structure de données
 Chaque étudiant est représenté par une structure etudiant :
-
+```c
 struct etudiant
 {
     char matricule[50];
@@ -57,18 +61,20 @@ struct etudiant
     int niveau;
     int cotisation;
 };
+```
 
 ---
 ## Technologies Utilisées
-### Langage de programmation : C
-### Compilateur : GCC
+**Langage de programmation :** C
+**Compilateur :** GCC
 
 ---
 ## Améliorations Futures
-#### Ajouter une validation plus robuste des entrées utilisateur.
-#### Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
-#### Ajouter un système de sauvegarde et de chargement des données dans un fichier.
+* Ajouter une validation plus robuste des entrées utilisateur.
+* Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
+* Ajouter un système de sauvegarde et de chargement des données dans un fichier.
 
 ## Auteur
 **Johan Alain**
-[GitHub](https://github.com)
+&nbsp
+[GitHub](https://github.com/johanalain11/)
