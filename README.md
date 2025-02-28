@@ -1,58 +1,74 @@
-# Gestion des étudiants et cotisations
-Ce projet est une application en langage C qui permet de gérer les informations des étudiants et leurs cotisations au sein d'un club.
+# 📌 Gestion des Étudiants et Cotisations
 
+![GitHub Repo stars](https://img.shields.io/github/stars/johanalain11/etudiant-cotisation?style=social)
+![GitHub license](https://img.shields.io/github/license/johanalain11/etudiant-cotisation)
+![GitHub last commit](https://img.shields.io/github/last-commit/johanalain11/etudiant-cotisation)
+![C](https://img.shields.io/badge/Language-C-blue)
+![GCC](https://img.shields.io/badge/Compiler-GCC-orange)
 
-## Fonctionnalités
+&#x20;&#x20;
 
-- Ajouter des étudiants avec leurs informations personnelles et leurs cotisations.
-- Modifier les informations d'un étudiant existant.
-- Supprimer les informations d'un étudiant par son matricule ou son numéro.
-- Afficher la liste complète des étudiants et leurs cotisations.
-- Calculer le montant total des cotisations.
-- Rechercher les informations d'un étudiant spécifique par son matricule.
+Ce projet est une application en langage **C** permettant de **gérer les informations des étudiants** et leurs **cotisations** au sein d'un club.
 
 ---
-## Installation et Compilation
 
-1. Cloner le dépôt
+## 🚀 Fonctionnalités
+
+✔ Ajouter un étudiant avec ses informations personnelles et sa cotisation.\
+✔ Modifier les informations d'un étudiant existant.\
+✔ Supprimer un étudiant par son **matricule** ou son **numéro**.\
+✔ Afficher la liste complète des étudiants et leurs cotisations.\
+✔ Calculer le **montant total des cotisations**.\
+✔ Rechercher un étudiant par **son matricule**.
+
+---
+
+## 🛠 Installation et Compilation
+
+### 1️⃣ Cloner le dépôt
+
 Clonez le projet depuis GitHub :
+
 ```sh
 git clone https://github.com/johanalain11/etudiant-cotisation.git
 cd etudiant-cotisation
 ```
-2. Compiler le code
+
+### 2️⃣ Compiler le code
+
 ```sh
 gcc programme.c -o gestion_etudiants
 ```
-3. Exécuter l'application
+
+### 3️⃣ Exécuter l'application
+
 ```sh
 ./gestion_etudiants
 ```
 
 ---
-## Utilisation
-1. Lancez le programme.
-2. Entrez le nombre d'étudiants à inscrire.
-3. Suivez les instructions pour saisir les informations des étudiants.
-4. Choisissez une opération dans le menu :
-    * Modifier les données d'un étudiant.
-    * Supprimer les données d'un étudiant par son numéro.
-    * Supprimer les données d'un étudiant par son matricule.
-    * Afficher la liste des étudiants et leurs cotisations.
-    * Calculer le montant total cotisé.
-    * Rechercher un étudiant par son matricule.
-    * Quitter le programme.
+
+## 🖥 Utilisation
+
+1️⃣ Lancez le programme.\
+2️⃣ Entrez le nombre d'étudiants à inscrire.\
+3️⃣ Suivez les instructions pour **saisir** les informations des étudiants.\
+4️⃣ Choisissez une opération dans le menu :\
+🔹 Modifier les données d'un étudiant.\
+🔹 Supprimer un étudiant par son **numéro** ou son **matricule**.\
+🔹 Afficher la liste des étudiants et leurs cotisations.\
+🔹 Calculer le **montant total cotisé**.\
+🔹 Rechercher un étudiant par **matricule**.\
+🔹 Quitter le programme.
 
 ---
-## Exemple d'exécution
-![Exemple d'exécution](./exec.png "Capture d'ajout d'étudiant")
 
----
-## Structure de données
-Chaque étudiant est représenté par une structure etudiant :
+## 🏗 Structure de Données
+
+Chaque étudiant est représenté par une structure `etudiant` :
+
 ```c
-struct etudiant
-{
+struct etudiant {
     char matricule[50];
     char nom[50];
     char prenom[50];
@@ -64,21 +80,31 @@ struct etudiant
 ```
 
 ---
-## Technologies Utilisées
-**Langage de programmation :** C
 
-**Compilateur :** GCC
+## 🖼 Exemple d'Exécution
+
+
 
 ---
-## Améliorations Futures
->[!NOTE]
->
->* Ajouter une interface graphique.
->* Ajouter une validation plus robuste des entrées utilisateur.
->* Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
->* Ajouter un système de sauvegarde et de chargement des données dans un fichier.
 
-## Auteur
-**Johan Alain**
+## 🛠 Technologies Utilisées
 
-[GitHub](https://github.com/johanalain11/)
+- **Langage de programmation :** C
+- **Compilateur :** GCC
+
+---
+
+## 🔮 Améliorations Futures
+
+✅ Ajouter une **interface graphique**.\
+✅ Renforcer la **validation des entrées utilisateur**.\
+✅ Gérer les **erreurs potentielles** (entrées invalides, dépassements de mémoire, etc.).\
+✅ Ajouter un **système de sauvegarde et de chargement** des données dans un fichier.
+
+---
+
+## 👨‍💻 Auteur
+
+**Johan Alain**\
+🔗 [GitHub](https://github.com/johanalain11/)
+
